@@ -9,9 +9,10 @@ nav {
 		top:-50%;
 		transform:translateY(40%);
 
-
 		img {
 			height:2.625rem;
+			top:-50%;
+			transform:translateY(10%);
 		}
 
 		div.right {
@@ -41,6 +42,26 @@ nav {
 				font-size:1rem;
 				height:3.1875rem;
 				width:6.875rem;
+			}
+
+		}
+
+		div.right.browser {
+			display:block;
+		}
+
+		div.right.mobile { //mobile nav rules
+			display:none;
+			top:-50%;
+			transform:translateY(40%);
+			width:auto;
+
+			i {
+				color:$purple;
+				float:right;
+				font-size:1.9rem;
+				margin-right:1.25rem;
+				position:relative;
 			}
 
 		}

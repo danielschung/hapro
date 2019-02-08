@@ -1,0 +1,53 @@
+@import 'global';
+
+//primary rules 
+div.primary {
+	display:inline-block;
+	width:70%;
+
+	div.accordian {
+		border-bottom: solid 1px $border;
+		padding-bottom:0.2rem;
+
+		div.content {
+			display:none;
+			padding-bottom:30px;
+
+			ul	{
+				list-style-type: none;
+				margin:0;
+				padding:0;
+
+				li {
+					margin:0 0 0.8125rem 0;
+				}
+
+			}
+
+		}
+
+		h4 {
+			cursor:pointer;
+
+			i {
+				float:right;
+				font-size:1.5rem;
+				margin-right:1.25rem;
+				position:relative;
+				top:0.09375rem;
+			}
+
+			i.icon-plus {
+				color:$purple;
+			}
+
+			i.icon-minus {
+				color:$dark-grey;
+				display:none;
+			}
+
+		}
+
+	}
+
+}
