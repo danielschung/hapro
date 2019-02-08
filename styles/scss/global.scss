@@ -1,0 +1,90 @@
+// fonts
+
+$bold-font:"bold-font", "Helvetica", sans-serif;
+$light-font: "light-font", "Helvetica", sans-serif;
+$link-font:"link-font", "Arial", sans;
+
+
+// colors
+
+$black:#080808;
+$dark:#404142;
+$border:#EDEFEF;
+$light-grey:#F9F9FA;
+$dark-grey:#545556;;
+$purple:#6344A7;
+$white:#FFFFFF;
+$yellow:#F2C14B;
+
+
+//global rules
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+html, body {
+	font-size:16px;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+
+div.page-container {
+	position:relative;
+	min-height:100vh;
+}
+
+div.wrapper {
+	margin:0 auto;
+	max-width:1120px;
+	padding:0 20px;
+} 
+
+div.wrapper.main {
+	padding-bottom:450px;
+	height:auto;
+}
+
+div.clear {
+	clear:both;
+}
+
+
+//element rules
+
+h1, h2, h3, h4, h5 {
+	font-family:$bold-font;
+}
+
+p, span, li {
+	color:$black;
+	font-family:$light-font;
+	font-size:1rem;
+	line-height:1.625rem;
+}
+
+h3 {
+	border-bottom: solid 1px $border;
+	font-size:1.5625rem;
+	letter-spacing:0.03rem;
+	line-height:2rem;
+	padding-bottom:1.125rem;
+	padding-top:2.5rem;
+}
+
+h4 {
+	font-size:1.0625rem;
+	letter-spacing:0.03rem;
+}
+
+a {
+	font-family:$light-font;
+	color:$purple;
+}
+
+a:visited {
+	color:$purple;
+}

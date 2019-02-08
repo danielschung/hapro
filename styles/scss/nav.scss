@@ -1,0 +1,51 @@
+@import 'global';
+
+nav {
+	box-shadow: 0 5px 10px -2px $border;
+	height:90px;
+	width:100%;
+
+	div.inner-container {
+		top:-50%;
+		transform:translateY(40%);
+
+
+		img {
+			height:2.625rem;
+		}
+
+		div.right {
+			float:right;
+			text-align:right;
+			width:77%;
+
+			ul {
+				display:inline-block;
+				position:relative;
+				float:left;
+
+				li {
+					color:$dark;
+					display:inline;
+					font-family:$link-font;
+					margin:0 1.125rem;
+				}
+			}
+
+			button {
+				background-color: $purple;
+				border-radius:5px;
+				border:none;
+				color:white;
+				font-family:$light-font;
+				font-size:1rem;
+				height:3.1875rem;
+				width:6.875rem;
+			}
+
+		}
+
+	}
+
+	
+}
