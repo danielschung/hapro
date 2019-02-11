@@ -24,11 +24,12 @@ nav {
 				display:inline-block;
 				position:relative;
 				float:left;
+				transform:translateY(60%);
 
 				li {
 					color:$dark;
 					display:inline;
-					font-family:$link-font;
+					font-family:$bold-font;
 					margin:0 1.125rem;
 				}
 			}

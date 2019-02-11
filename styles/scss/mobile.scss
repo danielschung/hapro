@@ -24,6 +24,28 @@
 
 		div.primary {
 			width:100%;
+
+			div.accordian {
+
+				h4 {
+
+					span.hide-mobile {
+						display:none;
+					}
+
+				}
+
+			}
+
+		}
+
+		div.search {
+
+			div#results {
+				margin-bottom:3rem;
+				width:100%;
+			}
+
 		}
 
 		aside.sidebar {

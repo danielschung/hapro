@@ -10,6 +10,7 @@ $link-font:"link-font", "Arial", sans;
 $black:#080808;
 $dark:#404142;
 $border:#EDEFEF;
+$grey:#404142;
 $light-grey:#F9F9FA;
 $dark-grey:#545556;;
 $purple:#6344A7;
@@ -40,7 +41,7 @@ div.page-container {
 div.wrapper {
 	margin:0 auto;
 	max-width:1120px;
-	padding:0 20px;
+	padding:0 18px;
 } 
 
 div.wrapper.main {
@@ -50,6 +51,14 @@ div.wrapper.main {
 
 div.clear {
 	clear:both;
+}
+
+input:focus {
+	outline:none;
+}
+
+input:focus::-webkit-input-placeholder {
+    opacity: 0;
 }
 
 
@@ -87,4 +96,15 @@ a {
 
 a:visited {
 	color:$purple;
+}
+
+ul	{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+
+	li {
+		margin:0 0 0.8125rem 0;
+	}
+
 }

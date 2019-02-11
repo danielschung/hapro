@@ -3,12 +3,13 @@
 <head>
 	<title>Providers | Health Alliance</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="./styles/css/global.css">
-	<link rel="stylesheet" type="text/css" href="./styles/css/nav.css">
-	<link rel="stylesheet" type="text/css" href="./styles/css/primary.css">
-	<link rel="stylesheet" type="text/css" href="./styles/css/sidebar.css">
-	<link rel="stylesheet" type="text/css" href="./styles/css/footer.css">
-	<link rel="stylesheet" type="text/css" href="./styles/css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/global.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/nav.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/search.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/primary.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../styles/css/mobile.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/45098/Pro/style.css?fm6pjt">
 	<style>
@@ -39,7 +40,7 @@
 			<div class="container">
 				<i class="icon-align-center"></i>
 				<ul>
-					<li><a href="./index.html"></a>Resources</li>
+					<li><a href="./provider.html"></a>Resources</li>
 					<li><a href="./announcements.html"></a>Announcements</li>
 					<li><a href="./codingcounts.html"></a>Coding Counts</li>
 					<li><a href="./informed.html"></a>Informed</li>
@@ -53,7 +54,7 @@
 		<nav>
 			<div class="wrapper">
 				<div class="inner-container">
-					<img src="./assets/logo.png">
+					<img src="../assets/logo.png">
 					<div class="right browser">
 						<ul>
 							<li><a href="./index.html"></a>Resources</li>
@@ -71,8 +72,74 @@
 		</nav>
 <!-- end nav -->
 
-<!-- start primary content -->
 		<div class="wrapper main">
+<!-- start search -->
+			<div class="search">
+				<i class="icon-search"></i>
+				<input list=search id="searchbar" class="searchbar" type="text" name="searchbar" placeholder="Search Resources" onfocus="">
+				<div id="results">
+					<div class="container">
+						<a href="https://www.healthalliance.org/media/Resources/med-provman-2017.pdf"><h4>2017 Medicare Provider Manual</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/cps-provman-2017.pdf"><h4>2017 Provider Manual</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-IAstars-2018.pd"><h4>2018 IA Medicare Star Ratings Flier</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-IAstars-SPA-2018.pdf"><h4>2018 IA Medicare Star Ratings Flier - Spanish</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-ILstars-2018.pdf"><h4>2018 IL Medicare Star Ratings Flier</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-ILstars-SPA-2018.pdf"><h4>2018 IL Medicare Star Ratings Flier - Spanish</h4></a>
+						<a href="https://www.healthalliance.org/media/Resources/Health-Alliance-Comprehensive-Formulary-Private-2018.pdf"><h4>2018 Individual and Employer Group Formulary - Direct Plans</h4></a>
+						<a href="http://healthalliance.org/media/Resources/Health-Alliance-Comprehensive-Formulary-Public-2018.pdf"><h4>2018 Individual and Employer Group Formulary - Public (QHP) Plans</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-REIDstars-2018.pdf"><h4>2018 Reid Medicare Star Ratings Flier</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-REIDstars-SPA-2018.pdf"><h4>2018 Reid Medicare Star Ratings Flier - Spanish</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-WACstars-2018.pdf"><h4>2018 WA Confluence Medicare Star Ratings Flier</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-WACstars-SPA-2018.pdf"><h4>2018 WA Confluence Medicare Star Ratings Flier - Spanish</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-WATstars-2018.pdf"><h4>2018 WA Pioneer Medicare Star Ratings Flier</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-WATstars-SPA-2018.pdf"><h4>2018 WA Pioneer Medicare Star Ratings Flier - Spanish</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-WAYstars-2018.pdf"><h4>2018 WA SignalAdvantage Medicare Star Ratings Flier</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-WAYstars-SPA-2018.pdf"><h4>2018 WA SignalAdvantage Medicare Star Ratings Flier - Spanish</h4></a>
+						<a href="https://www.healthalliance.org/media/Resources/Health-Alliance-ILIA-Formulary-Public-2019.pdf"><h4>2019 Health Alliance Individual and Small Group Formulary</h4></a>
+						<a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06a845bb-6abc-40a1-9282-a91c014ed5a1"><h4>2019 Health Alliance Medicare Provider Education</h4></a>
+						<a href="https://www.healthalliance.org/media/Resources/Health-Alliance-WA-Formulary-Public-2019.pdf"><h4>2019 Health Alliance Northwest Individual and Small Group Formulary</h4></a>
+						<a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76cc7239-ea69-427a-a157-a91c0140e9bf"><h4>2019 Health Alliance Northwest Medicare Provider Education</h4></a>
+						<a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3d2dbdd-e20a-4b2c-9108-a91c015612ba"><h4>2019 Reid Health Alliance Medicare Provider Education</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/generic-antidepressants-chart.pdf"><h4>Antidepressants Comparison Guide</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/generic-ARBs-chart.pdf"><h4>ARB Antihypertension Comparison Guide</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/generic-antipsychotics-chart.pdf"><h4>Atypical Antipsychotics Comparison Guide</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/be-healthy-brochure.pdf"><h4>Be Healthy Wellness Guide</h4></a>
+						<a href="http://www.caqh.org"><h4>CAQH Form</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/EFT-prov-flier.pdf"><h4>Change Healthcare ePayment Flier</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/cps-Clear-Coverage-Tutorial.pdf"><h4>Clear Coverage Tutorial</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/Specialty-Pharmacy-Services.pdf"><h4>CVS Caremark Specialty Pharmacy Services Enrollment Form</h4></a>
+						<a href="http://healthalliance.org/media/Resources/evicore-March-PA-presentation.pdf"><h4>eviCore March 2017 Preauthorization Presentation</h4></a>
+						<a href="http://healthalliance.org/media/Resources/oncology-preauth-changes.pdf"><h4>eviCore Medical Oncology Drug List</h4></a>
+						<a href="https://www.evicore.com/healthplan/Health_Alliance" target="_blank" rel="noopener noreferrer"><h4>eviCore Resources</h4></a>
+						<a href="https://www.healthalliance.org/media/Resources/ph-emergfillHANWexcld-2019.pdf"><h4>Health Alliance Northwest Emergency Fill List – Excluded Drugs</h4></a>
+						<a href="https://www.healthalliance.org/media/Resources/ph-emergfillHANW-2019.pdf"><h4>Health Alliance Northwest Emergency Fill List – Included Drugs</h4></a>
+						<a href="http://healthalliance.org/media/Resources/cps-provapp.pdf"><h4>Health Alliance Provider Application</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/MedLowestCostRx.pdf"><h4>Help Patients Save on Meds Flier</h4></a>
+						<a href="https://medicare.healthalliance.org/media/Resources/ph-HAQlhiriskmedflr.pdf"><h4>High-Risk Medication Chart</h4></a>
+						<a href="http://healthalliance.org/media/Resources/IA-credentialing-form.pdf"><h4>IA Credentialing Form</h4></a>
+						<a href="http://healthalliance.org/media/Resources/IL-credentialing-form.pdf"><h4>IL Credentialing Form</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-be-healthy-brochure.pdf"><h4>Medicare Be Healthy Wellness Guide</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-pharmd19ILIN-0818-Cover-2019.pdf"><h4>Medicare Illinois Pharmacy Directory</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-formularyMW-2019.pdf"><h4>Medicare Midwest Formulary</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/med-formularyNW-web-2019.pdf"><h4>Medicare Northwest Formulary</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/pnm-chiroreferralformMHS.pdf"><h4>MHS Chiropractor Referral Form</h4></a>
+						<a href="http://medicare.healthalliance.org/media/Resources/ph-pharm-preauthform-2019.pdf"><h4>Pharmacy Preauthorization Request Form</h4></a>
+						<a href="http://provider.healthalliance.org/wp-content/uploads/sites/2/2018/09/pnm-preauthbklt-0518-WEB-min-dm.pdf"><h4>Preauthorization Overview for Providers and Office Personnel</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/com-pareqform.pdf"><h4>Preauthorization Request Form</h4></a>
+						<a href="https://login.healthalliance.org/Account/Register?role=ProspectiveProvider"><h4>Prospective Provider Form</h4></a>
+						<a href="http://healthalliance.org/media/Resources/prov-attestation-formgoo.pdf"><h4>Provider Attestation Form</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/pnm-provaddform-0518-fill.pdf"><h4>Provider Information Addition Form</h4></a>
+						<a href="http://healthalliance.org/media/Resources/prov-info-change-form.pdf"><h4>Provider Information Change Form</h4></a>
+						<a href="http://healthalliance.org/media/Resources/ph-memspeclist.pdf"><h4>Specialty Drug List</h4></a>
+						<a href="http://www.healthalliance.org/media/Resources/generic-statins-chart.pdf"><h4>Statin Comparison Guide</h4></a>
+						<a href="http://healthalliance.org/media/Resources/WA-be-healthy-brochure.pdf"><h4>WA Individual Be Healthy Wellness Guide</h4></a>
+						<a href="http://provider.healthalliance.org/wp-content/uploads/sites/2/2018/09/pnm-provwebguide-0518-web.pdf"><h4>YourHealthAlliance.org Overview for Providers and Office Personnel</h4></a>
+					</div>
+				</div>
+			</div>
+<!-- end search -->
+
+<!-- start primary content -->
 			<div class="primary">
 				<h3>Provider Materials</h3>
 				<div class="accordian">
@@ -83,13 +150,14 @@
 				    		<li><a href="https://www.healthalliance.org/media/Resources/med-provman-2017.pdf">2017 Medicare Provider Manual</a></li>
 				    		<li><a href="http://healthalliance.org/media/Resources/prov-info-change-form.pdf">Provider Information Change Form</a></li>
 				    		<li><a href="http://www.healthalliance.org/media/Resources/pnm-provaddform-0518-fill.pdf">Provider Information Addition Form</a></li>
-				    		<li><a href="https://login.healthalliance.org/Account/Register?role=ProspectiveProvider">Prospective Provider Form</a></li><li><a href="http://www.healthalliance.org/media/Resources/com-pareqform.pdf">Preauthorization Request Form</a></li><li><a href="http://www.healthalliance.org/media/Resources/pnm-chiroreferralformMHS.pdf">MHS Chiropractor Referral Form <em>(for Memorial Health System Employees and Dependents only)</em></a></li>
+				    		<li><a href="https://login.healthalliance.org/Account/Register?role=ProspectiveProvider">Prospective Provider Form</a></li>
+				    		<li><a href="http://www.healthalliance.org/media/Resources/com-pareqform.pdf">Preauthorization Request Form</a></li><li><a href="http://www.healthalliance.org/media/Resources/pnm-chiroreferralformMHS.pdf">MHS Chiropractor Referral Form <em>(for Memorial Health System Employees and Dependents only)</em></a></li>
 						</ul>
 					</div>
 				</div>
 
 				<div class="accordian">
-					<h4>Credentialing and ePayment Forms<i class="icon-plus"></i><i class="icon-minus"></i></h4>
+					<h4>Credentialing and ePayment<i class="icon-plus"></i><i class="icon-minus"></i></h4>
 					<div class="content">
 						<ul>
 						    <li><a href="http://healthalliance.org/media/Resources/prov-attestation-formgoo.pdf">Provider Attestation Form</a></li>
@@ -156,7 +224,8 @@
 						<ul>
 						    <li><a href="http://medicare.healthalliance.org/media/Resources/med-pharmd19ILIN-0818-Cover-2019.pdf">Medicare Illinois Pharmacy Directory</a></li>
 						    <li><a href="http://medicare.healthalliance.org/media/Resources/med-formularyMW-2019.pdf">Medicare Midwest Formulary</a></li>
-						    <li><a href="http://medicare.healthalliance.org/media/Resources/med-formularyNW-web-2019.pdf">Medicare Northwest Formulary</a></li><li><a href="https://medicare.healthalliance.org/media/Resources/ph-HAQlhiriskmedflr.pdf">High-Risk Medication Chart</a></li></ul><ul>
+						    <li><a href="http://medicare.healthalliance.org/media/Resources/med-formularyNW-web-2019.pdf">Medicare Northwest Formulary</a></li>
+						    <li><a href="https://medicare.healthalliance.org/media/Resources/ph-HAQlhiriskmedflr.pdf">High-Risk Medication Chart</a></li></ul><ul>
 						</ul>
 					</div>
 				</div>
@@ -166,7 +235,11 @@
 					<div class="content">
 						<ul>
 						    <li><a href="http://healthalliance.org/media/Resources/Health-Alliance-Comprehensive-Formulary-Public-2018.pdf">2018 Individual and Employer Group Formulary - Public (QHP) Plans</a></li>
-						    <li><a href="https://www.healthalliance.org/media/Resources/Health-Alliance-Comprehensive-Formulary-Private-2018.pdf">2018 Individual and Employer Group Formulary - Direct Plans</a></li><li><a href="https://www.healthalliance.org/media/Resources/Health-Alliance-ILIA-Formulary-Public-2019.pdf">2019 Health Alliance Individual and Small Group Formulary</a></li><li><a href="https://www.healthalliance.org/media/Resources/Health-Alliance-WA-Formulary-Public-2019.pdf">2019 Health Alliance Northwest Individual and Small Group Formulary</a></li><li><a href="https://www.healthalliance.org/media/Resources/ph-emergfillHANW-2019.pdf">Health Alliance Northwest Emergency Fill List – Included Drugs</a></li><li><a href="https://www.healthalliance.org/media/Resources/ph-emergfillHANWexcld-2019.pdf">Health Alliance Northwest Emergency Fill List – Excluded Drugs</a></li>
+						    <li><a href="https://www.healthalliance.org/media/Resources/Health-Alliance-Comprehensive-Formulary-Private-2018.pdf">2018 Individual and Employer Group Formulary - Direct Plans</a></li>
+						    <li><a href="https://www.healthalliance.org/media/Resources/Health-Alliance-ILIA-Formulary-Public-2019.pdf">2019 Health Alliance Individual and Small Group Formulary</a></li>
+						    <li><a href="https://www.healthalliance.org/media/Resources/Health-Alliance-WA-Formulary-Public-2019.pdf">2019 Health Alliance Northwest Individual and Small Group Formulary</a></li>
+						    <li><a href="https://www.healthalliance.org/media/Resources/ph-emergfillHANW-2019.pdf">Health Alliance Northwest Emergency Fill List – Included Drugs</a></li>
+						    <li><a href="https://www.healthalliance.org/media/Resources/ph-emergfillHANWexcld-2019.pdf">Health Alliance Northwest Emergency Fill List – Excluded Drugs</a></li>
 						    <li><a href="http://healthalliance.org/media/Resources/ph-memspeclist.pdf">Specialty Drug List</a></li>
 						    <li><a href="http://healthalliance.org/media/Resources/oncology-preauth-changes.pdf">eviCore Medical Oncology Drug List</a></li>
 						</ul>
@@ -177,7 +250,8 @@
 					<h4>Generics<i class="icon-plus"></i><i class="icon-minus"></i></h4>
 					<div class="content">
 						<ul>
-						    <li><a href="http://medicare.healthalliance.org/media/Resources/MedLowestCostRx.pdf">Help Patients Save on Meds Flier</a></li><li><a href="http://www.healthalliance.org/media/Resources/generic-antidepressants-chart.pdf">Antidepressants Comparison Guide</a></li>
+						    <li><a href="http://medicare.healthalliance.org/media/Resources/MedLowestCostRx.pdf">Help Patients Save on Meds Flier</a></li>
+						    <li><a href="http://www.healthalliance.org/media/Resources/generic-antidepressants-chart.pdf">Antidepressants Comparison Guide</a></li>
 						    <li><a href="http://www.healthalliance.org/media/Resources/generic-ARBs-chart.pdf">ARB Antihypertension Comparison Guide</a></li>
 						    <li><a href="http://www.healthalliance.org/media/Resources/generic-antipsychotics-chart.pdf">Atypical Antipsychotics Comparison Guide</a></li>
 						    <li><a href="http://www.healthalliance.org/media/Resources/generic-statins-chart.pdf">Statin Comparison Guide</a></li>
@@ -190,7 +264,8 @@
 					<h4>Provider Education<i class="icon-plus"></i><i class="icon-minus"></i></h4>
 					<div class="content">
 						<ul>
-						    <li><a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06a845bb-6abc-40a1-9282-a91c014ed5a1">2019 Health Alliance Medicare Provider Education</a><li><a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76cc7239-ea69-427a-a157-a91c0140e9bf">2019 Health Alliance Northwest Medicare Provider Education</a></li><li><a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3d2dbdd-e20a-4b2c-9108-a91c015612ba">2019 Reid Health Alliance Medicare Provider Education</a></li>
+						    <li><a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06a845bb-6abc-40a1-9282-a91c014ed5a1">2019 Health Alliance Medicare Provider Education</a>
+						    <li><a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76cc7239-ea69-427a-a157-a91c0140e9bf">2019 Health Alliance Northwest Medicare Provider Education</a></li><li><a href="https://healthalliance.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b3d2dbdd-e20a-4b2c-9108-a91c015612ba">2019 Reid Health Alliance Medicare Provider Education</a></li>
 						</ul>
 					</div>
 				</div>
@@ -226,7 +301,7 @@
 				</div>
 				<div class="box">
 					<div class="inner-container">
-						<img src="./assets/yha.png">
+						<img src="../assets/yha.png">
 						<p class="centered">If you're a doctor bringing patients care or you work in a doctor's office, sign up for Your Health Alliance.</p>
 						<a href="https://login.healthalliance.org/Account/Register?role=Provider"><button class="aside">Register as Provider</button></a>
 						<a href="https://login.healthalliance.org/Account/Register?role=OfficePersonnel"><button class="clear">Register as Office Personnel</button></a>
@@ -268,8 +343,9 @@
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src="./js/primary.js"></script>
-	<script type="text/javascript" src="./js/mobile.js"></script>
+	<script type="text/javascript" src="../js/primary.js"></script>
+	<script type="text/javascript" src="../js/mobile.js"></script>
+	<script type="text/javascript" src="../js/search.js"></script>
 
 </body>
 </html>
