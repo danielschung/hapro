@@ -1,0 +1,110 @@
+@import 'global';
+
+//homepage rules
+div.homepage {
+	height:100%; 
+	margin:0;
+
+	div.text-container {
+		margin:0 auto;
+		padding-top:80px;
+		max-width:675px;
+		text-align:center;
+
+		h2 {
+			color:$purple;
+			font-size:1.625rem;
+			font-weight:500;
+			margin:0;
+		}
+
+	}
+
+	div.choose {
+		margin:0 auto;
+		padding:80px 0 30px 0;
+		text-align:center;
+
+		p {
+			font-size:1.125rem;
+			font-weight:500;
+		}
+
+	}
+
+	div.choice-container {
+		height:auto;
+		margin:0 0 30px 0;
+		width:100%;
+
+		div.choice {
+			background-color:white;
+			border:1px solid $border;
+			border-radius:5px;
+			display:inline-block;
+			height:384px;
+			margin:0 2%;
+			min-width:340px;
+			width:32%;
+
+			div.inner-container {
+				margin:0 auto;
+				text-align:center;
+				position:relative;
+				transform:translateY(12%);
+				width:80%;
+
+				img {
+					height:60px;
+				}
+
+				h3 {
+					border-bottom:none;
+					padding:13px 0 0 0;
+					margin:0 0 14px 0;
+				}
+
+				p {
+					letter-spacing: 0.15px;
+					margin:0;
+				}
+
+				button {
+					margin-top:22px;
+				}
+
+			}
+
+		}
+
+		div.choice.left {
+			float:left;
+			margin:0;
+		}
+
+		div.choice.right {
+			float:right;
+			margin:0;
+		}
+
+	}
+
+}
+
+// mobile rules 
+@media only screen and (max-width:1102px) {
+
+	body div.homepage div.choice-container div.choice {
+		margin:18px 0;
+		width:100%;
+	}
+
+	body div.homepage div.choice-container div.choice.left {
+		float:none;
+	}
+
+	body div.homepage div.choice-container div.choice.right {
+		float:none;
+	}
+
+}

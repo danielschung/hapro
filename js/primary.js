@@ -1,6 +1,6 @@
 $(document).ready (function() {
 
-	$('div.primary div.accordian h4').on('click', function() {
+	$('div.primary div.accordian h5').on('click', function() {
 
 		const c = $(this).next();
 		const plus = $(this).find('i:nth-child(1)');

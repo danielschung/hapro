@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	const results = $('#results');
-	const resultsText = $('#results h4');
+	const resultsText = $('#results h5');
 	const primary = $('div.primary');
 	const searchbar = $('#searchbar');
 
