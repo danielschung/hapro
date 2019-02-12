@@ -40,10 +40,6 @@ nav {
 				}
 			}
 
-			button {
-				border-radius:25px;
-			}
-
 		}
 
 		div.right.browser {
@@ -126,3 +122,26 @@ div.faded-layer {
 	z-index:1;
 }
 
+@media only screen and (max-width:410px) {
+
+	nav	{
+
+		div.inner-container {
+			
+			div.right {
+
+				ul {
+					margin-right:0;
+				}
+
+				button.purple.homepage {
+					width:100px;
+				}
+
+			}
+
+		}
+
+	}
+
+}
