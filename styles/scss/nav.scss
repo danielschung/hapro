@@ -37,6 +37,7 @@ nav {
 					font-family:$font;
 					font-weight:500;
 					margin:0 1.125rem;
+					@extend .hover;
 				}
 			}
 

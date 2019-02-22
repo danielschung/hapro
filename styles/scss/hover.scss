@@ -15,3 +15,12 @@ button.purple:hover {
 button.clear:hover {
 	color:$black;
 }
+
+nav div.right.browser li:hover {
+	border-bottom:2px solid $purple;
+	color:$purple;
+}
+
+div.primary div.single-page div.sub-nav ul li:hover {
+	border-bottom:2px solid $black;
+}
