@@ -32,13 +32,18 @@ nav {
 				}
 
 				li {
-					color:$dark;
+					color:$grey;
 					display:inline;
 					font-family:$font;
-					font-weight:500;
+					font-weight:$normal;
 					margin:0 1.125rem;
 					@extend .hover;
 				}
+
+				li.current {
+					color:$purple;
+				}
+
 			}
 
 		}

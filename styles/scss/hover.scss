@@ -17,10 +17,14 @@ button.clear:hover {
 }
 
 nav div.right.browser li:hover {
-	border-bottom:2px solid $purple;
-	color:$purple;
+	border-bottom:2px solid $black;
+	color:$black;
 }
 
 div.primary div.single-page div.sub-nav ul li:hover {
 	border-bottom:2px solid $black;
+}
+
+div.primary div.single-page div.fyb-row div.item a:hover {
+	color:$purple;
 }

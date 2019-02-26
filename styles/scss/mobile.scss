@@ -2,7 +2,8 @@
 
 //mobile rules
 
-@media only screen and (max-width:1029px) {	
+@media only screen and (max-width:1029px) {
+
 	nav {
 
 		div.inner-container {
@@ -34,6 +35,19 @@
 
 				}
 
+			}
+
+			div.single-page div.sub-nav ul li.mobile {
+				display:none;
+			}
+
+			div.single-page div.sub-nav ul li.no-mobile {
+				display:inline;
+			}
+
+			div.single-page h1.mobile-friendly {
+				font-size:10vw;
+				line-height:10vw;
 			}
 
 		}
