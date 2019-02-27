@@ -115,3 +115,12 @@ div.homepage {
 	}
 
 }
+
+@media only screen and (max-width:377px) {
+
+	div.page-container nav div.wrapper div.inner-container a img {
+		height:10vw;
+
+	}
+
+}
