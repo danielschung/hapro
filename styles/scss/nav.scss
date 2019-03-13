@@ -29,18 +29,18 @@ nav {
 
 				a {
 					text-decoration:none;
+					font-family:$font;
+					font-weight:$normal;
+					color:$grey;
 				}
 
 				li {
-					color:$grey;
 					display:inline;
-					font-family:$font;
-					font-weight:$normal;
 					margin:0 1.125rem;
 					@extend .hover;
 				}
 
-				li.current {
+				a.current {
 					color:$purple;
 				}
 
@@ -106,11 +106,12 @@ div.slide-out {
 			top:3.125rem;
 			padding:0;
 
-			li {
+			a {
 				color:white;
 				font-family:$link-font;
 				list-style-type:none;
 				margin:1.25rem 0 0 0.625rem;
+				text-decoration:none;
 			}
 		}
 
