@@ -149,6 +149,15 @@ div.primary {
 				margin:0;
 				padding:0;
 			}
+
+			p.sub-text {
+				color:$date;
+				font-size:1.2rem;
+			}
+
+			div.line {
+				margin-bottom:3rem;
+			}
 		}
 
 		div.fyb-row {
