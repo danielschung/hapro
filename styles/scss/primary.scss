@@ -77,6 +77,17 @@ div.primary {
 			line-height:32px;
 		}
 
+		ul {
+			margin-left:20px;
+
+			li {
+				list-style-type:disc;
+				margin-left:20px;
+				margin-top:5px;
+			}
+
+		}
+
 		div.sub-nav {
 			border-bottom: solid 1px $border;
 			height:2.1875rem;
